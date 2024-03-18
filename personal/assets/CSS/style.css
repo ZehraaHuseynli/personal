@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height:50px ;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+ul .li{
+    display: flex;
+  
+}
+li:hover{
+    cursor: pointer;
+    color: blueviolet;
+    transition: 1;
+}
